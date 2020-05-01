@@ -85,14 +85,14 @@ services:
   client:
     image: polis-participation
     build:
-      context: ./clientParticipation
+      context: ./client-participation
       args:
         GIT_HASH: null
 
   client-admin:
     image: polis-admin
     build:
-      context: ./clientAdmin
+      context: ./client-admin
       args:
         GIT_HASH: null
 
