@@ -1,0 +1,10 @@
+# See: https://github.com/probot/settings#usage
+
+repository:
+  name: polisCode
+  default_branch: monorepo
+  description: :nut_and_bolt: nuts and bolts of the system
+  homepage: https://pol.is
+  has_issues: true
+  has_wiki: false
+  has_projects: false
